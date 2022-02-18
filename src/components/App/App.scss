@@ -1,0 +1,40 @@
+.App{
+  width: 800px;
+
+  margin: 0 auto;
+  text-align: center;
+  background: #665858;
+
+  .app-name{
+    text-align: center;
+    padding: 0;
+    margin: 0 0 30px;
+  }
+
+  .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #2d251a;
+
+    .column{
+      width: 300px;
+
+      &:last-child{
+        width: 470px;
+      }
+    }
+  }
+
+  .title {
+    background: #44200c;
+    padding: 10px;
+    margin: 0;
+    color: #a68156;
+  }
+  .panel{
+    border: 1px solid #877f72;
+    border-top: none;
+    margin-bottom: 10px;
+  }
+}

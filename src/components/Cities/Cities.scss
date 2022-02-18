@@ -1,0 +1,18 @@
+.cities-list{
+  text-align: center;
+  padding: 0 10px;
+
+  background: #888;
+
+  .city{
+    color: white;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+
+    &.active{
+      color: #a68156;
+      background: #2d251a;
+    }
+  }
+}
